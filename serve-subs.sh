@@ -1,5 +1,4 @@
-#!/usr/bin/env -S nix shell nixpkgs#miniserve --command bash
-# shellcheck shell=bash
+#!/usr/bin/env bash
 
 miniserve -v . \
         --header 'Cache-Control: no-cache, no-store, must-revalidate' \

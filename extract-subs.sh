@@ -1,5 +1,4 @@
-#!/usr/bin/env -S nix shell nixpkgs#bash nixpkgs#ffmpeg nixpkgs#unzip nixpkgs#findutils --command bash
-# shellcheck shell=bash
+#!/usr/bin/env bash
 
 set -euo pipefail
 shopt -s nullglob

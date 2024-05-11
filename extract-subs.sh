@@ -18,4 +18,5 @@ do
   done
 
   mv -i ./*.vtt "$CWD"
+  rm -rf "$TEMP_DIR"
 done
